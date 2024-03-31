@@ -2,10 +2,10 @@
 This repository contains the source code for reproducing the main experiments for the undergraduate senior thesis 
 *Extracting Signal out of Chaos: Advancements on MAGI for Bayesian Analysis of Dynamical Systems* written by Skyler Wu and advised by Professor Samuel Kou of the Department of Statistics at Harvard University.
 
-Each folder in this repository roughly corresponds to one major experiment / model class in *Extracting Signal out of Chaos*. 
-The contents of this repository should be sufficient to reproduce the raw model outputs (e.g., HMC samples, mean trajectories, point estimates of parameters, etc.) 
+Each folder in this repository corresponds to one major experiment / model class in *Extracting Signal out of Chaos*. 
+The contents of this repository reproduce the raw model outputs (e.g., HMC samples, mean trajectories, point estimates of parameters, etc.) 
 of all models discussed in *Extracting Signal out of Chaos*, including MAGI, Pilot MAGI (pMAGI), Pilot MAGI Sequential Prediction (PMSP), 
-Particle Swarm Evolution (PSO), Differential Evolution (DE), and Physics-Informed Neural Networks PINNs). This repository also includes the common datasets used to benchmark competitor methods against pMAGI and PMSP, 
+Particle Swarm Evolution (PSO), Differential Evolution (DE), and Physics-Informed Neural Networks PINNs). This repository also includes the datasets used to benchmark competitor methods against pMAGI and PMSP, 
 including both the unnoised ground truth and the noised observations.
 
 # Running Experiments
